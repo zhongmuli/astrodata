@@ -1,0 +1,22 @@
+This is a database of the fundamental parameters and color-magnitude diagrams of 49 star clusters. 
+It corresponds to the study of Zhongmu Li, Yangyang Deng and Jing Chen in 2021, which was submitted to ApJS. When one use these data, please cite to that work.  
+The fundamental parameters are fitted from the color-magnitude diagrams in V and I bands, via the ASPS model and Poerful CMD code. 
+The V and I magnitudes are transformed from the Gaia DR2 magnitudes using some fitting correlations. 
+
+The database contains three parts, i.e., a parameter file and three directories. They are explained as follows.
+
+The file "parameters.dat" gives the basic information, best-fit parameters from ASPS model and isochrones. 
+There are 15 columns in this file. The colums are for Name, FoF_ID, l, l_err, b, b_err, m-M, E(V-I), Z, t, f_b, f_r, Z_old, t_old, t_old_err respectively. 
+They correspond to the contents of a manuscript that was submitted to ApJS.
+
+The directory "obseved_cmds_data" contains the data of observed VI band color-magnitude diagrams of 49 star clusters. 
+The first and second columns are for V magnitude and (V-I) color, respectively.
+
+The directory "bestfit_cmds_data" contains the data of best-fit color-magnitude diagrams of 49 star clusters. 
+The first and second columns are for (V-I) color and V magnitude respectively.
+
+The directory "cmds_figs" contains the comparison figures of the observed and best-fit color-magnitude diagrams.
+
+
+If you have any problems with using these data, send an email to zhongmuli@126.com.
+
