@@ -1,0 +1,11 @@
+This is a database of spec-SEDs and phot-SEDs of CCSN progenitors. There are two sub-databases for spec-SEDs and phot-SEDs, respectively. The phot-SED sub-database is given by a file, "preCCSN_photSED.tar.gz". The spec-SED database includes 8 files named "preCCSN_specSED_z*.zip".
+
+A README file is given for each sub-database.
+
+A FORTRAN code to fit the phot-SEDs of CCSN progenitors is also given in the phot-SED sub-database. It can be used to estimate the paramters of CCSN progenitors conveniently.
+
+Please cite to arXiv:2102.03023 or the paper on RAA when you use the database or the code. If you have problems, contact Prof. Dr. Zhongmu Li, via email zhongmuli@126.com.
+
+Enjoy using it.
+
+
